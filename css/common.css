@@ -3,7 +3,7 @@ a {
 }
 
 .container { 
-    max-width: 960px;
+    max-width: 640px;
     margin: 0 auto;
 }
 
@@ -78,6 +78,10 @@ ul.navi li {
     background-image: url("../img/ikuwows.jpg");
     background-position: 100% 0;
     background-size:cover;
+}
+
+.current-date {
+    text-align: center;
 }
 
 
