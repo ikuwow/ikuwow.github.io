@@ -12,6 +12,7 @@ img {
     height: 100%;
 }
 
+/** header **/
 header {
     background-color: #e0e0e0;
     height: 60px;
@@ -19,6 +20,15 @@ header {
 
 header .media-logo {
     padding: 16px 8px;
+}
+
+header ul {
+    overflow:hidden;
+}
+
+header li {
+    display: block;
+    padding: 0 10px;
 }
 
 footer {
