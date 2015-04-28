@@ -1,5 +1,9 @@
+a {
+    text-decoration: none;
+}
+
 .container { 
-    max-width: 980px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -13,6 +17,10 @@ header {
     height: 60px;
 }
 
+header .media-logo {
+    padding: 16px 8px;
+}
+
 footer {
     text-align: center;
     background-color: #444444;
@@ -23,6 +31,7 @@ footer {
 
 h1 {
     color: #515151;
+    text-align: center;
 }
 
 h2 {
@@ -32,13 +41,17 @@ h2 {
 
 .media-logo {
     display: block;
+    float: left;
     overflow:hidden;
     font-size: 18px;
+    color: black;
+    font-style: bold;
 }
 
 ul.navi{
     display: block;
     float: right;
+    padding: 16px 8px;
 }
 
 ul.navi li {
@@ -51,8 +64,34 @@ ul.navi li {
 }
 
 
+.image-box {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-image: url("../img/ikuwows.jpg");
+    background-position: 0 0;
+    background-size:cover;
+}
+
+.image-box:hover { 
+    background-image: url("../img/ikuwows.jpg");
+    background-position: 100% 0;
+    background-size:cover;
+}
 
 
-@media screen and (min-width 48em) {
+@media screen and (max-width: 980px) {
+    .container { 
+        max-width: 640px;
+        margin: 0 auto;
+    }
+}
 
+@media screen and (max-width: 640px) {
+    .container {
+        max-width: 560px;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
