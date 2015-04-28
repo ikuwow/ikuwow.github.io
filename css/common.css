@@ -68,13 +68,18 @@ ul.navi li {
     width: 300px;
     height: 300px;
     margin: 0 auto;
+}
+.image-box a{
+    display: block;
+    height: 100%;
+    width: 100%;
     border-radius: 10px;
     background-image: url("../img/ikuwows.jpg");
     background-position: 0 0;
     background-size:cover;
 }
 
-.image-box:hover { 
+.image-box a:hover { 
     background-image: url("../img/ikuwows.jpg");
     background-position: 100% 0;
     background-size:cover;
