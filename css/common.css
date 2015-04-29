@@ -141,6 +141,22 @@ h2 {
 
 .nav-hamburger-content{
     display: none;
+    display: block;
+    z-index: 10000000;
+    position: absolute;
+    background-color: #aaaaaa;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 1px 1px #888888;
+}
+.nav-hamburger-content li {
+    height: 50px;
+    line-height: 50px;
+    border: solid 1px #999999;
+}
+.nav-hamburger-content a {
+    color: black;
+    vertical-align: center;
 }
 
 
@@ -161,24 +177,8 @@ h2 {
     .navbar-content {
         display: none;
     }
-    .nav-hamburger {
+    .nav-hamburger, .nav-hamburger-content {
         display: block;
-    }
-    .nav-hamburger-content{
-        display: block;
-        z-index: 10000000;
-        position: absolute;
-        background-color: #aaaaaa;
-        width: 100%;
-        text-align: center;
-    }
-    .nav-hamburger-content li {
-        height: 50px;
-        line-height: 50px;
-    }
-    .nav-hamburger-content a {
-        color: black;
-        vertical-align: center;
     }
 }
 
