@@ -105,7 +105,7 @@ h2 {
 .top-box {
     overflow:hidden;
 }
-.top-box a.top-portrait{
+.top-box .top-portrait{
     width: 300px;
     height: 300px;
     margin: 0 auto;
@@ -130,7 +130,7 @@ h2 {
     text-align: center;
 }
 
-#main p {
+.section-content {
     margin-left: 20px;
 }
 

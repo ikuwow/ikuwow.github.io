@@ -1,8 +1,10 @@
 $(function(){
 
+/*
 $(".top-portrait").click(function(){
     alert("Thank you for tapping me!");
 });
+*/
 
 var birthday = new Date("1990-09-13T03:47:00").getTime();
 
