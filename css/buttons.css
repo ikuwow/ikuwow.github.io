@@ -17,3 +17,12 @@
     background-color: #2696f6;
     color: white;
 }
+
+.account-list {
+    overflow: hidden;
+}
+
+.account-list i {
+    margin-right: 8px;
+}
+
