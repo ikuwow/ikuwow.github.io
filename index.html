@@ -13,14 +13,7 @@
 
     <!-- js -->
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <script> // Google Analytics
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-51407961-7', 'auto');
-    ga('send', 'pageview');
-    </script>
+    <script type="text/javascript" src="js/google_analytics.js"></script>
 
     <title>ikuwow.github.io</title>
 </head>
@@ -81,40 +74,11 @@
     </div>
 </footer>
 
-<script>
-$(function(){
-
-$(".top-portrait").click(function(){
-    alert("Thank you for tapping me!");
-});
-
-// var distance = new Date((+new Date("1990-09-13 03:47:00")) - (+new Date("2015-01-01 00:00:00")))
-// console.log(distance);
-var birthday = new Date("1990-09-13T03:47:00").getTime();
-
-culc_age = function(){
-
-    var current_time = Date.now();
-    var distance = current_time - birthday;
-    
-    current_age = distance/(365*24*60*60*1000);
-    after_dot = Math.pow(10,8);
-    current_age = Math.round(current_age*after_dot)/after_dot;
-    
-    $(".age").html(current_age.toFixed(8));
-
-    setTimeout(culc_age,200);
-};
-
-culc_age();
-
-
-});
-</script>
-
+<!-- JavaScript zone -->
+<script type="text/javascript" src="js/common.js"></script>
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54ef412e7d400f9a" async="async"></script>
-
+<!-- JavaScript zone End -->
 
 
 </body>
