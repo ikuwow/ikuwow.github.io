@@ -5,7 +5,7 @@ a {
 .container { 
     max-width: 640px;
     margin: 0 auto;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 img {
@@ -17,6 +17,7 @@ img {
 header {
     background-color: #e0e0e0;
     height: 60px;
+    box-shadow: 0 2px 2px #888888;
 }
 
 .media-logo {
@@ -41,12 +42,14 @@ ul.navi a {
     color: #555555;
 }
 
+/** footer **/
 footer {
     text-align: center;
     background-color: #444444;
     color: white;
     height: 40px;
     padding-top: 15px;
+    box-shadow: 0 -2px 2px #222222;
 }
 
 h1 {
