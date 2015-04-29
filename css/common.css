@@ -17,7 +17,7 @@ img {
 header {
     background-color: #e0e0e0;
     height: 60px;
-    box-shadow: 0 2px 2px #888888;
+    box-shadow: 0 1px 1px #888888;
 }
 
 .media-logo {
@@ -29,21 +29,22 @@ header {
     font-weight: bold;
 }
 
-ul.navi {
+.navbar-content {
     overflow:hidden;
 }
 
-ul.navi li {
+.navbar-content li {
     display: block;
     padding: 0 10px;
 }
 
-ul.navi a {
+.navbar-content a {
     color: #555555;
 }
 
 /** footer **/
 footer {
+    margin-top: 10px;
     text-align: center;
     background-color: #444444;
     color: white;
@@ -72,13 +73,13 @@ h2 {
     font-style: bold;
 }
 
-ul.navi{
+.navbar-content{
     display: block;
     float: right;
     padding: 16px 8px;
 }
 
-ul.navi li {
+.navbar-content li {
     display: inline;
     height: 40px;
 }
@@ -114,6 +115,10 @@ ul.navi li {
 
 .current-age {
     text-align: center;
+}
+
+#main p {
+    margin-left: 20px;
 }
 
 
