@@ -141,7 +141,6 @@ h2 {
 
 .nav-hamburger-content{
     display: none;
-    display: block;
     z-index: 10000000;
     position: absolute;
     background-color: #aaaaaa;
@@ -155,6 +154,7 @@ h2 {
     border: solid 1px #999999;
 }
 .nav-hamburger-content a {
+    display: block;
     color: black;
     vertical-align: center;
 }
@@ -177,7 +177,7 @@ h2 {
     .navbar-content {
         display: none;
     }
-    .nav-hamburger, .nav-hamburger-content {
+    .nav-hamburger {
         display: block;
     }
 }
