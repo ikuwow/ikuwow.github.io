@@ -5,6 +5,7 @@ a {
 .container { 
     max-width: 640px;
     margin: 0 auto;
+    overflow:hidden;
 }
 
 img {
@@ -18,17 +19,26 @@ header {
     height: 60px;
 }
 
-header .media-logo {
+.media-logo {
     padding: 16px 8px;
 }
 
-header ul {
+.media-logo a{
+    color: #444444;
+    font-weight: bold;
+}
+
+ul.navi {
     overflow:hidden;
 }
 
-header li {
+ul.navi li {
     display: block;
     padding: 0 10px;
+}
+
+ul.navi a {
+    color: #555555;
 }
 
 footer {
@@ -47,6 +57,7 @@ h1 {
 h2 {
     color: #616161;
     font-size: 24px;
+    margin: 20px 0 10px;
 }
 
 .media-logo {
@@ -74,25 +85,28 @@ ul.navi li {
 }
 
 
-.image-box {
+.top-box {
+    overflow:hidden;
+}
+.top-box a.top-portrait{
     width: 300px;
     height: 300px;
     margin: 0 auto;
-}
-.image-box a{
     display: block;
-    height: 100%;
-    width: 100%;
     border-radius: 10px;
     background-image: url("../img/ikuwows.jpg");
     background-position: 0 0;
     background-size:cover;
 }
 
-.image-box a:hover { 
+.top-box .top-portrait:hover { 
     background-image: url("../img/ikuwows.jpg");
     background-position: 100% 0;
     background-size:cover;
+}
+
+.top-box p {
+    margin: 20px 0;
 }
 
 .current-age {
@@ -114,3 +128,4 @@ ul.navi li {
         text-align: center;
     }
 }
+
