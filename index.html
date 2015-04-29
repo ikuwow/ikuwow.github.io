@@ -33,8 +33,11 @@
 <header>
     <div class="container">
         <p class="media-logo"><a href=".">ikuwow.github.io</a></p>
-        <div class="nav-hamburger">
+        <div class="nav-hidden nav-hamburger">
             <i class="fa fa-bars"></i>
+        </div>
+        <div class="nav-hidden nav-cross">
+            <i class="fa fa-times"></i>
         </div>
         <ul class="navbar-content">
             <li><a href="#about">About</a></li>
@@ -42,6 +45,13 @@
         </ul>
     </div>
 </header>
+
+<div class="nav-hamburger-content">
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#accounts">Accounts</a></li>
+    </ul>
+</div>
 
 <div id="main">
 
@@ -65,15 +75,17 @@
 <p>特技は腹を壊すことです。</p>
 
 <h2 id="accounts">Accounts</h2>
-<ul class="account-list">
-    <li><a href="https://twitter.com/ikuwow" class="pure-button btn-tw"><i class="fa fa-twitter"></i>Twitter</a></li>
-    <li><a href="https://facebook.com/hashiki.ikuwow" class="pure-button btn-fb"><i class="fa fa-facebook"></i>Facebook</a></li>
-    <li><a href="https://github.com/ikuwow" class="pure-button btn-gh"><i class="fa fa-github"></i>GitHub</a></li>
-    <li><a href="http://ikuwow.website/" class="pure-button btn-iw"><i class="fa fa-rss"></i>ikuwow.website</a></li>
-    <li><a href="http://b.hatena.ne.jp/ikuwow/bookmark" class="pure-button btn-hatebu"><i class="fa fa-question"></i>Hatena Bookmark</a></li>
-    <li><a href="http://www.ikuwow.com/blog" class="pure-button btn-idc"><i class="fa fa-sitemap"></i>www.ikuwow.com</a></li>
-    <li><a href="http://gplus.to/ikuwow" class="pure-button btn-gp"><i class="fa fa-google-plus"></i>Google Plus</a></li>
-</ul>
+<div class="section-content">
+    <ul class="account-list">
+        <li><a href="https://twitter.com/ikuwow" class="pure-button btn-tw"><i class="fa fa-twitter"></i>Twitter</a></li>
+        <li><a href="https://facebook.com/hashiki.ikuwow" class="pure-button btn-fb"><i class="fa fa-facebook"></i>Facebook</a></li>
+        <li><a href="https://github.com/ikuwow" class="pure-button btn-gh"><i class="fa fa-github"></i>GitHub</a></li>
+        <li><a href="http://ikuwow.website/" class="pure-button btn-iw"><i class="fa fa-rss"></i>ikuwow.website</a></li>
+        <li><a href="http://b.hatena.ne.jp/ikuwow/bookmark" class="pure-button btn-hatebu"><i class="fa fa-question"></i>Hatena Bookmark</a></li>
+        <li><a href="http://www.ikuwow.com/blog" class="pure-button btn-idc"><i class="fa fa-sitemap"></i>www.ikuwow.com</a></li>
+        <li><a href="http://gplus.to/ikuwow" class="pure-button btn-gp"><i class="fa fa-google-plus"></i>Google Plus</a></li>
+    </ul>
+</div>
 
 </div><!-- .container -->
 
@@ -87,8 +99,9 @@
 
 <!-- JavaScript zone -->
 <script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/hamburger.js"></script>
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54ef412e7d400f9a" async="async"></script>
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54ef412e7d400f9a" async="async"></script>
 <!-- JavaScript zone End -->
 
 

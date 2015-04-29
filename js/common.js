@@ -4,8 +4,6 @@ $(".top-portrait").click(function(){
     alert("Thank you for tapping me!");
 });
 
-// var distance = new Date((+new Date("1990-09-13 03:47:00")) - (+new Date("2015-01-01 00:00:00")))
-// console.log(distance);
 var birthday = new Date("1990-09-13T03:47:00").getTime();
 
 culc_age = function(){

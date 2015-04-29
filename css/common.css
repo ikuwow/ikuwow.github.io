@@ -23,12 +23,12 @@ header {
     overflow: hidden;
 }
 
-.nav-hamburger {
+.nav-hidden {
     margin: 14px 18px;
     color: #888888;
 }
 
-.nav-hamburger i{
+.nav-hidden i{
     font-size: 32px;
 }
 
@@ -134,8 +134,12 @@ h2 {
     margin-left: 20px;
 }
 
-.nav-hamburger {
+.nav-hidden {
     float: right;
+    display: none;
+}
+
+.nav-hamburger-content{
     display: none;
 }
 
@@ -159,6 +163,22 @@ h2 {
     }
     .nav-hamburger {
         display: block;
+    }
+    .nav-hamburger-content{
+        display: block;
+        z-index: 10000000;
+        position: absolute;
+        background-color: #aaaaaa;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-hamburger-content li {
+        height: 50px;
+        line-height: 50px;
+    }
+    .nav-hamburger-content a {
+        color: black;
+        vertical-align: center;
     }
 }
 
