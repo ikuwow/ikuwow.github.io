@@ -6,6 +6,7 @@ $(".top-portrait").click(function(){
 });
 */
 
+/* age calcuration */
 var birthday = new Date("1990-09-13T03:47:00").getTime();
 
 culc_age = function(){
@@ -23,6 +24,20 @@ culc_age = function(){
 };
 
 culc_age();
+
+
+
+/* fast scroll */
+$(".to-about").click(function(){
+    var i = $(".to-about").index(document)
+    var p = $("#about").eq(i).offset().top;
+    $('html,body').animate({ scrollTop: p }, 'fast');
+})
+$(".to-accounts").click(function(){
+    var i = $(".to-accounts").index(document)
+    var p = $("#accounts").eq(i).offset().top;
+    $('html,body').animate({ scrollTop: p }, 'fast');
+})
 
 
 });

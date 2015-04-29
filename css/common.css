@@ -131,7 +131,7 @@ h2 {
 }
 
 .section-content {
-    margin-left: 20px;
+    margin: 0 20px;
 }
 
 .nav-hidden {
@@ -155,7 +155,7 @@ h2 {
 }
 .nav-hamburger-content a {
     display: block;
-    color: black;
+    color: #333333;
     vertical-align: center;
 }
 
