@@ -15,16 +15,15 @@ culc_age = function(){
     var distance = current_time - birthday;
     
     current_age = distance/(365*24*60*60*1000);
-    after_dot = Math.pow(10,8);
+    after_dot = Math.pow(10,10);
     current_age = Math.round(current_age*after_dot)/after_dot;
     
-    $(".age").html(current_age.toFixed(8));
+    $(".age").html(current_age.toFixed(10));
 
-    setTimeout(culc_age,200);
+    setTimeout(culc_age,50);
 };
 
 culc_age();
-
 
 
 /* fast scroll */

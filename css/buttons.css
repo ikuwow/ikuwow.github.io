@@ -19,6 +19,17 @@
     color: white;
 }
 
+.btn-li {
+    background-color: #2887bb;
+    color: white;
+}
+
+.btn-qiita {
+    background-color: #57bd27;
+    color: white;
+}
+
+
 .account-list {
     overflow: hidden;
 }
