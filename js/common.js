@@ -28,15 +28,15 @@ culc_age();
 
 /* fast scroll */
 $(".to-about").click(function(){
-    var i = $(".to-about").index(document)
+    var i = $(".to-about").index(document);
     var p = $("#about").eq(i).offset().top;
     $('html,body').animate({ scrollTop: p }, 'fast');
-})
+});
 $(".to-accounts").click(function(){
-    var i = $(".to-accounts").index(document)
+    var i = $(".to-accounts").index(document);
     var p = $("#accounts").eq(i).offset().top;
     $('html,body').animate({ scrollTop: p }, 'fast');
-})
+});
 
 
 });
