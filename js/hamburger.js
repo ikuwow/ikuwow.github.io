@@ -21,18 +21,19 @@ $('.overlay').click(function(){
 
 /* fast scroll */
 $(".to-about").click(function(){
-    $('.overlay').toggle(); // オーバーレイ表示切替
-    $('.nav-hamburger-content').toggle();
     var i = $(".to-about").index(document);
     var p = $("#about").eq(i).offset().top;
     $('html,body').animate({ scrollTop: p }, 'fast');
 });
 $(".to-accounts").click(function(){
-    $('.overlay').toggle(); // オーバーレイ表示切替
-    $('.nav-hamburger-content').toggle();
     var i = $(".to-accounts").index(document);
     var p = $("#accounts").eq(i).offset().top;
     $('html,body').animate({ scrollTop: p }, 'fast');
+});
+
+$(".nav-hamburger-content li").click(function(){
+    $('.overlay').toggle(); // オーバーレイ表示切替
+    $('.nav-hamburger-content').toggle();
 });
 
 });
