@@ -20,7 +20,7 @@ culc_age = function(){
     
     $(".age").html(current_age.toFixed(9));
 
-    setTimeout(culc_age,50);
+    setTimeout(culc_age,100);
 };
 
 culc_age();
