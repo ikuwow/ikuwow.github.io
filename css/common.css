@@ -61,7 +61,7 @@ footer {
     text-align: center;
     background-color: #444444;
     color: white;
-    height: 40px;
+    min-height: 40px;
     padding-top: 15px;
     box-shadow: 0 -2px 2px #222222;
 }
