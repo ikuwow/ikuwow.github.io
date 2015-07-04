@@ -194,3 +194,53 @@ h2 {
     opacity: 0.3;
     display: none;
 }
+
+/*** Button ***/
+.btn-tw {
+    background-color: #55acee;
+    color: white;
+}
+
+.btn-fb {
+    background-color: #3b5998;
+    color:white;
+}
+
+.btn-teratail {
+    background-color: #41474f;
+    color: white;
+}
+
+.btn-gp {
+    background-color: #dd4b39;
+    color: white;
+}
+
+.btn-iw {
+    background-color: #3e4f5d;
+    color:white;
+}
+
+.btn-hatebu {
+    background-color: #2696f6;
+    color: white;
+}
+
+.btn-li {
+    background-color: #2887bb;
+    color: white;
+}
+
+.btn-qiita {
+    background-color: #57bd27;
+    color: white;
+}
+
+
+.account-list {
+    overflow: hidden;
+}
+
+.account-list i {
+    margin-right: 8px;
+}
