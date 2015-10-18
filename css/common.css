@@ -244,3 +244,12 @@ h2 {
 .account-list i {
     margin-right: 8px;
 }
+
+.social-feed {
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+.social-feed-item {
+    margin: 24px auto 16px;
+}
