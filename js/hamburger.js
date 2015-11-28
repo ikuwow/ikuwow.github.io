@@ -20,15 +20,12 @@ $('.overlay').click(function(){
 });
 
 /* fast scroll */
-$(".to-about").click(function(){
-    var i = $(".to-about").index(document);
-    var p = $("#about").eq(i).offset().top;
-    $('html,body').animate({ scrollTop: p }, 'fast');
-});
-$(".to-accounts").click(function(){
-    var i = $(".to-accounts").index(document);
-    var p = $("#accounts").eq(i).offset().top;
-    $('html,body').animate({ scrollTop: p }, 'fast');
+["about","accounts","feeds"].forEach(function(somepoint){
+    $(".to-"+somepoint).click(function(){
+        var i = $(".to-"+somepoint).index(document);
+        var p = $("#"+somepoint).eq(i).offset().top;
+        $('html,body').animate({ scrollTop: p }, 'fast');
+    });
 });
 
 $(".nav-hamburger-content li").click(function(){
