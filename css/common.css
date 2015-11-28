@@ -236,6 +236,10 @@ h2 {
     color: white;
 }
 
+.btn-instagram {
+    background-color: #115688;
+    color: #fafafa;
+}
 
 .account-list {
     overflow: hidden;
