@@ -241,6 +241,11 @@ h2 {
     color: #fafafa;
 }
 
+.btn-lastfm {
+    color: #ffffff;
+    background-color: #e31420;
+}
+
 .account-list {
     overflow: hidden;
 }
