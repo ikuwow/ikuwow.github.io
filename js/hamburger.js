@@ -1,15 +1,17 @@
-$(function(){
+(function(){
 
-$(".nav-hamburger-content").addClass("dn");
-$(".nav-cross").addClass("dn");
-$('#main').prepend('<div class="overlay"></div>');
+var hamburger_content = document.getElementsByClassName("nav-hamburger-content")[0];
+hamburger_content.classList.add("dn");
+
+var overlay = document.createElement("div");
+overlay.className = "overlay";
+document.getElementById("main").appendChild(overlay);
 
 // display menu
 $(".nav-hamburger").click(function(){
     $('.overlay').toggle(); // オーバーレイ表示切替
     $(".nav-hamburger-content").slideToggle("fast",function(){
             $(".nav-hamburger").addClass("dn");
-            $(".nav-cross").removeClass("dn");
     });
 });
 
@@ -33,4 +35,4 @@ $(".nav-hamburger-content li").click(function(){
     $('.nav-hamburger-content').toggle();
 });
 
-});
+})();
