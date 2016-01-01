@@ -4,7 +4,7 @@ a {
     text-decoration: none;
 }
 
-.container { 
+.container {
     max-width: 640px;
     margin: 0 auto;
     overflow: hidden;
@@ -261,4 +261,9 @@ h2 {
 
 .social-feed-item {
     margin: 24px auto 16px;
+}
+
+.btn-tw-gray {
+    background-color: #555555;
+    color: white;
 }
