@@ -246,6 +246,11 @@ h2 {
     background-color: #e31420;
 }
 
+.btn-pinterest {
+    color: #ffffff;
+    background-color: #bd081c;
+}
+
 .account-list {
     overflow: hidden;
 }
@@ -261,6 +266,7 @@ h2 {
 
 .social-feed-item {
     margin: 24px auto 16px;
+    text-align: center;
 }
 
 .btn-tw-gray {
