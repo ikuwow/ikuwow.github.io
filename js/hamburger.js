@@ -22,7 +22,7 @@ $('.overlay').click(function(){
 });
 
 /* fast scroll */
-["about","accounts","feeds"].forEach(function(somepoint){
+["about","accounts","feeds","directories"].forEach(function(somepoint){
     $(".to-"+somepoint).click(function(){
         var i = $(".to-"+somepoint).index(document);
         var p = $("#"+somepoint).eq(i).offset().top;
