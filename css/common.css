@@ -126,7 +126,8 @@ h2 {
     margin: 20px 0;
 }
 
-.current-age {
+.current-age,
+.github-button {
     text-align: center;
 }
 
