@@ -116,7 +116,7 @@ h2 {
     background-size:cover;
 }
 
-.top-box .top-portrait:hover { 
+.top-box .top-portrait:hover {
     background-image: url("../img/ikuwows.jpg");
     background-position: 100% 0;
     background-size:cover;
@@ -160,9 +160,12 @@ h2 {
     vertical-align: center;
 }
 
+.section-content-directories li {
+    list-style: circle;
+}
 
 @media screen and (max-width: 980px) {
-    .container { 
+    .container {
         max-width: 640px;
         margin: 0 auto;
     }
