@@ -272,6 +272,10 @@ h2 {
     margin: 24px auto 16px;
     text-align: center;
 }
+.social-feed-item.stackoverflow-flair {
+    width: 208px;
+    height: 58px;
+}
 
 .btn-tw-gray {
     background-color: #555555;
