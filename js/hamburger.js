@@ -2,18 +2,18 @@
 
 'use strict';
 
-var hamburger_content = document.getElementsByClassName("nav-hamburger-content")[0];
-hamburger_content.classList.add("dn");
-
 var overlay = document.createElement("div");
 overlay.className = "overlay";
 document.getElementById("main").appendChild(overlay);
+
+var hamburger_content = document.querySelector('.nav-hamburger-content');
+hamburger_content.classList.add("dn");
 
 // display menu
 $(".nav-hamburger").click(function(){
     $('.overlay').toggle(); // オーバーレイ表示切替
     $(".nav-hamburger-content").slideToggle("fast",function(){
-            $(".nav-hamburger").addClass("dn");
+        $(".nav-hamburger").addClass("dn");
     });
 });
 
