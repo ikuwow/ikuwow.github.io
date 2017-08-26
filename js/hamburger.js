@@ -1,5 +1,7 @@
 (function(){
 
+'use strict';
+
 var hamburger_content = document.getElementsByClassName("nav-hamburger-content")[0];
 hamburger_content.classList.add("dn");
 
@@ -19,15 +21,6 @@ $(".nav-hamburger").click(function(){
 $('.overlay').click(function(){
 	$(this).toggle(); // オーバーレイ非表示
     $(".nav-hamburger-content").slideToggle("fast");
-});
-
-/* fast scroll */
-["about","accounts","feeds","directories"].forEach(function(somepoint){
-    $(".to-"+somepoint).click(function(){
-        var i = $(".to-"+somepoint).index(document);
-        var p = $("#"+somepoint).eq(i).offset().top;
-        $('html,body').animate({ scrollTop: p }, 'fast');
-    });
 });
 
 $(".nav-hamburger-content li").click(function(){
