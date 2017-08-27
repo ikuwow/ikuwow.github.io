@@ -6,13 +6,11 @@ var hamburger_content = document.querySelector('.nav-hamburger-content');
 hamburger_content.classList.add('dn');
 
 // display menu
-$('.nav-hamburger').click(function(){
-    $('.nav-hamburger-content').slideToggle('fast', function(){
-        $('.nav-hamburger').addClass('dn');
-    });
+document.querySelector('.nav-hamburger').addEventListener('click', function(){
+    $('.nav-hamburger-content').slideToggle('fast');
 });
 
-$(".nav-hamburger-content ul").click(function(){
+document.querySelector('.nav-hamburger-content ul').addEventListener('click', function(){
     $('.nav-hamburger-content').toggle();
 });
 
