@@ -150,6 +150,9 @@ h2 {
     text-align: center;
     box-shadow: 0 1px 1px #888888;
 }
+.nav-hamburger-content.visible {
+    display: block;
+}
 .nav-hamburger-content li {
     height: 50px;
     line-height: 50px;

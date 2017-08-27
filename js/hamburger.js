@@ -2,13 +2,12 @@
 
 'use strict';
 
-// display menu
 document.querySelector('.nav-hamburger').addEventListener('click', function(){
-    $('.nav-hamburger-content').slideToggle('fast');
+    document.querySelector('.nav-hamburger-content').classList.toggle('visible');
 });
 
 document.querySelector('.nav-hamburger-content ul').addEventListener('click', function(){
-    $('.nav-hamburger-content').toggle();
+    document.querySelector('.nav-hamburger-content').classList.toggle('visible');
 });
 
 })();
