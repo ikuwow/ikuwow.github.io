@@ -140,7 +140,8 @@ h2 {
     display: none;
 }
 
-.nav-hamburger-content{
+.nav-hamburger-content {
+    top: 61px;
     display: none;
     z-index: 10000000;
     position: absolute;
