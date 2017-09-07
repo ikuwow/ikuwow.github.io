@@ -111,14 +111,8 @@ h2 {
     margin: 0 auto;
     display: block;
     border-radius: 10px;
-    background-image: url("../img/ikuwows.jpg");
+    background-image: url("../img/ikuwow.jpg");
     background-position: 0 0;
-    background-size:cover;
-}
-
-.top-box .top-portrait:hover {
-    background-image: url("../img/ikuwows.jpg");
-    background-position: 100% 0;
     background-size:cover;
 }
 
